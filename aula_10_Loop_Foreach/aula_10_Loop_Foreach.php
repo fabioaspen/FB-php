@@ -7,11 +7,18 @@
         /*
         if($veiculo == "bicicleta"){
             break;
-        }*/
+        }
+        */
     }
 
     echo "<hr>";
 
+    foreach ($transp as $veiculo => $value) {
+        echo "$veiculo";
+    }
+
+    echo "<hr>";
+    
     foreach($transp as $veiculo){
         if($veiculo == "moto"){
             echo "Moto esta na lista";
