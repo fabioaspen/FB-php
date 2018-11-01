@@ -1,6 +1,7 @@
 <?php
 
     session_start();
+    
     echo "<h3>Segunda Página</h3>";
     
     echo $_SESSION['vnome'];

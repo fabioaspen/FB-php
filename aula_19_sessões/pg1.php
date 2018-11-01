@@ -4,7 +4,7 @@
 
     if ($_SESSION['vlog'] == "s") {
             
-        echo "<h3>Segunda Página</h3>";
+        echo "<h3>Primeira Página</h3>";
 
         $_SESSION['vcanal'] = "vlog fessor bruno";
         
